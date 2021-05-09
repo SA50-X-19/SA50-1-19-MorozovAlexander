@@ -87,10 +87,14 @@ a{
     justify-content: center;
 }
 .menu__items:hover{
-    transform: translateY(-20px);
+    transform: translateY(-5px);
     transition-duration: 400ms;
 }
 .sign__in:hover{
-    transform: translateY(-20px);
+    transform: translateY(-5px);
+    transition-duration: 400ms;
+}
+.logo__text:hover{
+    transform: translateY(-5px);
     transition-duration: 400ms;
 }
