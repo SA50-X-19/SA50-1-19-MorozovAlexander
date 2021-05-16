@@ -1,0 +1,136 @@
+a{
+    color:#fff;
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+}
+
+.header {
+    width: 100%;
+    max-width: 1100px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: Helvetica;
+}
+.header__left{
+    display: flex;
+    align-items: center; 
+    width: 550px;
+    height: 36px;
+}
+.left__block{
+    display: flex;
+    width: 427px;
+    height: 36px;
+    justify-content: space-between;
+    background: #321753;
+}
+.right__block{
+    display: flex;
+    width: 673px;
+    height: 36px;
+    justify-content: space-between;
+    background: #321753;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 347px;
+    height: 36px;
+}
+.menu__items{
+    font-size: 12px;
+    
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    width: 673px;
+    height: 36px;
+    justify-content: flex-end;
+    background: #321753;
+}
+.sign{
+    width: 244px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign__up{
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    display: flex;
+    width: 112px;
+    height: 36px;
+    border-radius: 5px;
+    background: coral;
+}
+.sign__in{
+
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color:coral;
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    width: 112px;
+    height: 36px;
+    border-radius: 5px;
+    border-color: coral;
+}
+.header__logo{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo1{
+    width: 20px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.logo2{
+    width: 20px;
+    height: 8px;
+    margin-top: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.sign__in:hover{
+    transform: skewY(-20deg);
+    transition-duration: 200ms;
+}
+.sign__up:hover{
+    transform: skew(-20deg, 20deg);
+    transition-duration: 200ms;
+}
+.menu__items:hover{
+    transform: translateY(-20px);
+    transition-duration: 400ms;
+}
+.header__logo:hover{
+    transform: rotate(720deg);
+    transition-duration: 800ms;
+}
